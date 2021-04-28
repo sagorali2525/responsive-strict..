@@ -1,0 +1,446 @@
+/* =====================================
+    Template Name: Strict || HTML Template
+    Author: md sagor ali 
+    Version: 1 0.0
+    Created:18 april 2021
+    File Description: Main Css file of the template   
+
+========================================*/
+
+/*=======================================
+        css rariable
+========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+:root{
+    --primary:#2d3950;
+    --secondary:#15a4fa;
+    --text:#999999;
+    --acent:#15a4fa;
+    --white:#ffffff;
+    --primary-fonts:'Lato', sans-serif;
+    --title_fonts_size:40px;
+    --subtitle_fonts_size:20px;
+    --text_fonts_size:20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: var(--text_fonts_size) !important;
+    line-height: 30px;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: var(--primary-fonts);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: var(--primary-fonts);
+    color: var(--primary) ;
+}
+h1{
+    font-size: 120px;
+    font-weight: 130px;
+    font-weight: 700;
+    color: var(--white);
+    
+}
+
+h2{
+   font-size: var(--title_fonts_size);
+   line-height: 50px;
+   font-weight: 400;
+}
+h4{
+    font-size: var(--subtitle_fonts_size);
+    line-height: 30px;
+    font-weight: 400;
+}
+p{
+    font-family: var(--primary-fonts);
+    font-size: var(--text_fonts_size) !important;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--text);
+}
+a{
+    font-family: var(--primary-fonts);
+    font-size: var(--text_fonts_size) !important;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--text);
+}
+a:hover{
+    color: var(--acent);
+}
+
+/*=======================================
+           header style start
+========================================*/
+
+.navbar-light .navbar-toggler {
+    color: #15a4fa;
+    border-color: #fdd5c6;
+    background-color: #ffefe8;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler {
+    padding: 10px 18px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.navbar{
+    padding: 30px 0;
+}
+.nav-link{
+    font-family: var(--primary-fonts);
+    font-size: 16px !important;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary) !important;
+    text-transform: uppercase;
+    padding: 0px 30px !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: var(--acent) !important;
+    transition: 0.3s;
+}
+
+
+/*=======================================
+           header style end
+========================================*/
+
+/*=======================================
+        css rariable
+========================================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+:root{
+    --primary:#2d3950;
+    --secondary:#15a4fa;
+    --text:#999999;
+    --acent:#15a4fa;
+    --white:#ffffff;
+    --primary-fonts:'Lato', sans-serif;
+    --title_fonts_size:40px;
+    --subtitle_fonts_size:20px;
+    --text_fonts_size:20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: var(--text_fonts_size) !important;
+    line-height: 30px;
+    font-weight: 400;
+    box-sizing: border-box;
+    font-family: var(--primary-fonts);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: var(--primary-fonts);
+    color: var(--primary) ;
+}
+h1{
+    font-size: 120px;
+    font-weight: 130px;
+    font-weight: 700;
+    color: var(--white);
+    
+}
+
+h2{
+   font-size: var(--title_fonts_size);
+   line-height: 50px;
+   font-weight: 400;
+}
+h4{
+    font-size: var(--subtitle_fonts_size);
+    line-height: 30px;
+    font-weight: 400;
+}
+p{
+    font-family: var(--primary-fonts);
+    font-size: var(--text_fonts_size) !important;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--text);
+}
+a{
+    font-family: var(--primary-fonts);
+    font-size: var(--text_fonts_size) !important;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--text);
+}
+a:hover{
+    color: var(--acent);
+}
+
+/*=======================================
+           header style start
+========================================*/
+
+.navbar-light .navbar-toggler {
+    color: #15a4fa;
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler {
+    padding: 10px 18px;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: transparent;
+    border: 1px solid red;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+.navbar-toggler .collapsed:focus{
+    background-color: red;
+}
+.navbar{
+    padding: 30px 0;
+}
+.nav-link{
+    font-family: var(--primary-fonts);
+    font-size: 16px !important;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary) !important;
+    text-transform: uppercase;
+    padding: 0px 30px !important;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: var(--acent) !important;
+    transition: 0.3s;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(21 164 250) !important;
+}
+
+
+/*=======================================
+           header style end
+========================================*/
+
+
+/*=======================================
+          design style start
+========================================*/
+
+h2.title {
+    text-align: center;
+    font-size: 40px;
+    color: #2d3950;
+}
+.design-content-one p {
+    text-align: center;
+    font-size: 20px !important;
+    color: #999999;
+}
+.design-content-one {
+    padding: 40px 0;
+}
+section#design {
+    background-color: #f6f9f9;
+}
+/*=======================================
+         design style end
+========================================*/
+
+/*=======================================
+          slider style start
+========================================*/
+
+.carousel-caption{
+    right: 0;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.carousel-caption h5 {
+    font-size: 120px;
+    color: var(--white);
+    font-weight: 700;
+}
+/* .carousel-inner img {
+    min-height: 800px;
+} */
+.slider-title{
+    position: relative;
+}
+.slider-title span::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    left: 50%;
+    background-color: var(--secondary);
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+.carousel-caption p {
+    font-size: 20px !important;
+    color: var(--white);
+    /* margin: 40px 0; */
+    margin-top: 30px;
+ }
+ .get-button .btn{
+    border: 1px solid var(--secondary);
+    background-color: transparent;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+.get-button .btn:focus{
+   box-shadow: none;
+}
+.get-button .btn:hover{
+    background-color: var(--secondary);
+    transition: 0.3s all ease-in-out;
+}
+.carousel-indicators [data-bs-target] {
+    width: 18px;
+    height: 18px;
+    border-radius: 80%;
+}
+.carousel-inner img {
+    min-height: 800px;
+}
+
+
+/*=======================================
+          slider style end
+========================================*/
+
+/*=======================================
+         service style start
+========================================*/
+#service{
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+.item{
+    text-align: center;
+}
+.item p{
+  font-size: 15px !important;
+  padding: 0 40px;
+}
+
+.item .icon-one{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50,5fc3ff+100 */
+background: rgb(72,186,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(72,186,255,1) 50%, rgba(95,195,255,1) 50%, rgba(95,195,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%,rgba(95,195,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(72,186,255,1) 50%,rgba(95,195,255,1) 50%,rgba(95,195,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+height:80px;
+width:80px;
+line-height: 80px;
+margin: 0 auto;
+}
+.item .icon-one i{
+    font-size: 30px;
+    color: #ffffff;
+}
+.item h4{
+    margin: 15px 0 10px;
+}
+
+/*=======================================
+         service style end
+========================================*/
+/*=======================================
+       gallarye style strat
+========================================*/
+#gallary{
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+.gallary-icon{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .8s;
+}
+.gallary-item{
+    position: relative;
+    cursor: pointer;
+    margin: 12px 0;
+}
+.gallary-images img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.gallary-icon .list-inline{
+    margin-bottom: 0;
+}
+.gallary-icon a{
+    color: #ffffff;
+     font-size: 15px !important;
+    height: 40px;
+    border: 1px solid #ffffff;
+    width: 40px;
+    display: block;
+    line-height: 40px;
+    cursor: pointer;
+}
+.gallary-item::before{
+    content: "";
+    position: absolute;
+    background-color: var(--acent);
+    height: 100%;
+    width: 0;
+    display: block;
+    transition: .6s;
+    opacity: 0;
+    cursor: pointer;
+ 
+}
+.gallary-item:hover:before{
+    opacity: .6;
+    width: 100%;
+}
+.gallary-item:hover .gallary-icon{
+    top: 50%;
+    opacity: 1;
+}
+.heading.text-center p {
+    font-size: 15px !important;
+}
+
+
+/*=======================================
+      gallary style end
+========================================*/
